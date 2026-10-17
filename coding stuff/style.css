@@ -1,0 +1,66 @@
+body{
+  background-image: url('sf.jpg');
+}
+
+.d1{
+  width: 500px;
+  height: 350px;
+  top: 22%;
+  left: 30%;
+  position: absolute;
+  overflow: hidden;
+  background-color: rgb(244, 186, 98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.btn{
+  padding: 20px 22px 20px 22px;
+  margin-right: 5px;
+  cursor: pointer;
+} 
+
+.btn1{
+  padding: 20px 20px 20px 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+button{
+  color: aliceblue;
+  background-color: rgb(161, 71, 6);
+  border-radius: 7px;
+  border: none;
+  flex-direction: row;
+  font-weight: bolder;
+}
+
+.btn:hover{
+  font-size: xx-large;
+  font: bolder;
+  padding: 25px 27px 25px 27px;
+  background-color: rgb(192, 105, 23);
+  transition-duration: 1s;
+}
+
+.btn1:hover{
+  background-color: rgb(192, 105, 23);
+  color: rgb(192, 105, 23);
+  transition: 1s;
+  opacity: 0;
+}
+
+
+#image{
+  display: none;
+}
+
+.text{
+  font-style: italic;
+  font-size: 5rem;
+  color: rgb(78, 37, 2);
+  margin-top: 1rem;
+}

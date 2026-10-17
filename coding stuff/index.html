@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  <div class="d1">
+    <div id="t" class="txt"><h1 class="text">hiii</h1></div>
+    <div>
+    <img id="image" src="https://tse1.mm.bing.net/th/id/OIP.va9XaXuCmsvu2yKPdC-XOwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="yimg"/>
+    <button id="yes" class="btn" onclick="show()">YESS</button>
+    <button id="noBtn" class="btn1" onclick="alert('NOT AN OPTION!')">NOOO</button>  
+    </div>
+  </div>
+  <script>
+    function show(){
+      document.getElementById('image').style.display="block";
+      document.getElementById('yes').style.display = "none";
+      document.getElementById('noBtn').style.display = "none";
+      document.getElementById('t').style.display = "none";
+  }
+  </script>
+</body>
+</html>
